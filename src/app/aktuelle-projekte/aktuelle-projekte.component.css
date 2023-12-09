@@ -1,0 +1,75 @@
+.black-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    background-color: #000000;
+  }
+  
+  
+  h2.text-center {
+    color: #ffffff; 
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .left-image {
+    width: 100%;
+    height: auto;
+    max-height: 100%; /* Stellt sicher, dass das Bild die maximale Höhe nicht überschreitet */
+  }
+  
+  
+  .card {
+    background-color: #343a40;
+    margin-bottom: 20px; 
+  }
+  
+  .scroll-link {
+    height: 100%; /* Sorgt dafür, dass die Höhe des Elements vollständig ist */
+    display: flex; /* Nutzt Flexbox-Layout */
+    justify-content: center; /* Zentriert horizontal */
+    align-items: center; /* Zentriert vertikal */
+  }
+  
+  
+  .styled-button {
+    background-color: #333;
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    align-items: center;
+    position:relative;
+    bottom: 35%;
+  }
+  
+  .styled-button:hover {
+    background-color: #555; 
+  }
+  /* Für große Bildschirme */
+@media screen and (min-width: 992px) {
+    .card {
+      width: 80%; 
+      margin: 20px; 
+    }
+  
+    .project-image {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Für kleinere Bildschirme */
+  @media screen and (max-width: 991px) {
+    .card {
+      width: 100%; 
+      margin: 10px 0; 
+    }
+  }
+  

@@ -1,0 +1,59 @@
+/* startseite.css */
+.container {
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0; /* Margin unten entfernen */
+}
+
+.box {
+    position: relative;
+}
+
+.portrait {
+    width: 450px;
+    height: auto;
+    position: relative; /* Änderung der Positionierung auf relative */
+    top: 32px; /* Beispiel für eine Position von oben */
+    left: 80%; /* Beispiel für eine Position von links */
+    max-width: 100%;
+}
+
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 30%; /* 5 cm über dem unteren Rand */
+    left: 3cm; /* 5 cm vom linken Rand */
+}
+
+.dev-text-bold {
+    font-size: 40px; /* Größere Schrift */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 1cm; /* Abstand unter dem Text */
+}
+
+.dev-description {
+    font-size: 18px; /* Größere Schrift für Beschreibung */
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+}

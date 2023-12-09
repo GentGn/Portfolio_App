@@ -1,0 +1,41 @@
+/* Globale Stildefinitionen */
+.card {
+    font-family: 'Helvetica Neue', sans-serif;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    background-color: #fff;
+    overflow: hidden; /* Verstecke den Überlauf */
+  }
+  
+  .card video {
+    width: 100%; /* Video auf 100% Breite setzen */
+    height: auto; /* Automatische Höhe basierend auf der Breite */
+    max-height: 100%; /* Sicherstellen, dass das Video nicht die Kartenhöhe überschreitet */
+  }
+  
+  .black-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: fit-content; /* Änderung der Mindesthöhe auf fit-content */
+    background-color: #000000;
+  }
+  
+  /* Media Query für kleinere Bildschirme oder Zoom-Effekte */
+  @media screen and (max-width: 768px) {
+    .card {
+      max-width: calc(100% - 40px); /* Hier wird die Breite des Containers um den Padding-Wert reduziert */
+      margin: 0 auto;
+    }
+  
+    .black-background {
+      min-height: fit-content; /* Änderung der Höhe auf fit-content */
+    }
+  }
+  
