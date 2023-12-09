@@ -27,6 +27,13 @@
   .card {
     background-color: #343a40;
     margin-bottom: 20px; 
+    margin-right: 30%;
+    transform: scale(1.4); /* Skaliert die Karte um 30% */
+    transition: transform 0.3s ease; /* Fügt eine animierte Transition hinzu */
+  }
+  
+  .card:hover {
+    transform: scale(1.33); /* Skaliert die Karte um insgesamt 33% beim Hover */
   }
   
   .scroll-link {
