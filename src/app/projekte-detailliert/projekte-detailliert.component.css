@@ -3,8 +3,8 @@
   width: 100%;
   max-width: 600px;
   height: auto;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 10px;
+  border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 15px;
   background-color: #fff;
@@ -13,27 +13,22 @@
 
 .card video {
   width: 100%; /* Video auf 100% Breite setzen */
+  padding: 10px;
+  border-radius: 15px;
   height: auto; /* Automatische Höhe basierend auf der Breite */
   max-height: 100%; /* Sicherstellen, dass das Video nicht die Kartenhöhe überschreitet */
 }
 
 .black-background {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  width: 100%;
-  min-height: 100vh;
+  justify-content: center;
   background-color: #000000;
+  height: auto;
+  padding: 100px;
 }
 
-.scrollanchor {
-  position: relative;
-}
 
-/* Media Query für kleinere Bildschirme oder Zoom-Effekte */
-@media screen and (max-width: 768px) {
-  .card {
-    max-width: 100%;
-    margin: 0 auto;
-  }
-}
+
+
