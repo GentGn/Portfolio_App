@@ -27,22 +27,26 @@
     position: relative;
 }
 
-.portrait {
-    width: 450px;
-    height: auto;
-    position: relative; /* Änderung der Positionierung auf relative */
-    top: 32px; /* Beispiel für eine Position von oben */
-    left: 80%; /* Beispiel für eine Position von links */
-    max-width: 100%;
-}
-
-
-.text-section {
+.image-container {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 30%; /* 5 cm über dem unteren Rand */
-    left: 3cm; /* 5 cm vom linken Rand */
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+  }
+  
+  .portrait {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    max-height: 70vh;
+    align-self: flex-end;
+  }
+
+
+  .text-section {
+    padding-right: 20px; /* Abstand zwischen Text und Bild */
+    padding-bottom: 20px; /* Zusätzlicher Abstand zum Bild */
 }
 
 .dev-text-bold {
