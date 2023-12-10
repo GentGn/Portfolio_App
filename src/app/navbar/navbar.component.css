@@ -1,4 +1,10 @@
 .custom-bg-dark {
-    background-color: #000; /* Beispiel: Dunkleres Schwarz */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  height: auto;
+  padding: 10px;
   }
   
